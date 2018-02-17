@@ -1,0 +1,28 @@
+{
+  "name": "simple-storage",
+  "version": "1.0.0",
+  "description": " a library for projects that allow you to work with local and session storage in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaiR/simple-storage.git"
+  },
+  "keywords": [
+    "session-storage",
+    "local-storage",
+    "localStorage",
+    "sessionStorage",
+    "simple-storage",
+    "simpleStorage",
+    "SimpleStorage"
+  ],
+  "author": "“Seyed <Seyedalilight@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/MetaiR/simple-storage/issues"
+  },
+  "homepage": "https://github.com/MetaiR/simple-storage#readme"
+}
