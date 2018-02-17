@@ -17,9 +17,9 @@
     "local-storage",
     "localStorage",
     "sessionStorage",
-    "simple-storage",
     "simpleStorage",
-    "SimpleStorage"
+    "SimpleStorage",
+    "simple-storage-tool"
   ],
   "author": "“Seyed <Seyedalilight@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
