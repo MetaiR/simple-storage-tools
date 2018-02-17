@@ -3,9 +3,9 @@ a lightweight library for projects that allow you to work with local and session
 
 ## Installation
 ```sh
-npm install simple-storage-tool --save
-yarn add simple-storage-tool
-bower install simple-storage-tool --save
+npm install simple-storage-tools --save
+yarn add simple-storage-tools
+bower install simple-storage-tools --save
 ```
 
 ## Usage
@@ -14,12 +14,12 @@ first, you must import it.
 ### Javascript
 
 ```javascript
-var Storage = require('simple-storage-tool');
+var Storage = require('simple-storage-tools');
 ```
 
 ### TypeScript
 ```typescript
-import { Storage } from 'simple-storage-tool';
+import { Storage } from 'simple-storage-tools';
 ```
 
 then you can use it like this:
@@ -54,8 +54,8 @@ feel free to fork and do what ever you want (or send pull requests).
 
 for contribute this project, first clone the project and go to project folder:
 ```sh
-git clone https://github.com/MetaiR/simple-storage-tool.git
-cd simple-storage-tool
+git clone https://github.com/MetaiR/simple-storage-tools.git
+cd simple-storage-tools
 ```
 
 then run:
