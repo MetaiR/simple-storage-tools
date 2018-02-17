@@ -1,3 +1,6 @@
+[![Coverage Status](https://coveralls.io/repos/github/MetaiR/simple-storage-tools/badge.svg?branch=master)](https://coveralls.io/github/MetaiR/simple-storage-tools?branch=master)
+[![Build Status](https://travis-ci.org/MetaiR/simple-storage-tools.svg?branch=master)](https://travis-ci.org/MetaiR/simple-storage-tools)
+
 # Simple Storage
 a lightweight library for projects that allow you to work with local and session storage.
 
