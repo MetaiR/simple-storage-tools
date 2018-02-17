@@ -2,9 +2,10 @@
   "name": "simple-storage",
   "version": "1.0.0",
   "description": " a library for projects that allow you to work with local and session storage in typescript",
-  "main": "index.ts",
+  "main": "built/index.js",
+  "types": "built/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

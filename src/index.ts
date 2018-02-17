@@ -80,7 +80,7 @@ class Storage {
                 }
             }
         } else {
-            input = <string> str; // put the string type if the type of Object is string
+            input = <string> str; // put the input itself if its type is string
         }
         if (inLocalStorage) { // store the input value
             localStorage.setItem(key, input);
