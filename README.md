@@ -17,7 +17,7 @@ first, you must import it.
 ### Javascript
 
 ```javascript
-var Storage = require('simple-storage-tools');
+var Storage = require('simple-storage-tools').Storage;
 ```
 
 ### TypeScript
@@ -46,6 +46,7 @@ let r = Storage.get('some-storage');
 
 console.log(r.value1 + ' ' + r.value2); // print Hello World in console
 ```
+you can see more examples [here](https://gist.github.com/MetaiR/d7a6d9a1492363afd66b0626a3585fee)
 
 ## Test
 ```sh
