@@ -18,7 +18,7 @@ class Storage {
      *  `throwOnNotFound` parameter if there is no localStorage founds.
      */
     static get(key: string, fromLocalStorage: boolean = false, toJson = true,
-            throwOnNotFound: boolean = false): string | Object | null {
+            throwOnNotFound: boolean = false): string | any | null {
         let v;
         if (fromLocalStorage) { // find storage with the input key
             v = localStorage.getItem(key);
@@ -65,7 +65,7 @@ class Storage {
      *  ignore any error that casting to JSON is caused and store the string
      *  of your Object by using `toString()` method.
      */
-    static set(key: string, str: string | Object , inLocalStorage: boolean = false, fromJson = true,
+    static set(key: string, str: string | any , inLocalStorage: boolean = false, fromJson = true,
             ignoreJsonException: boolean = true): void {
         let input: string;
         if (fromJson && typeof(str) !== 'string')  { // cast from JSON to string
