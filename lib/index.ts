@@ -36,7 +36,6 @@ export class Storage {
             try {
                 output = JSON.parse(v);
             } catch (ex) {
-                console.log(ex);
                 let output = v;
             }
         }
