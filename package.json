@@ -1,6 +1,6 @@
 {
   "name": "simple-storage-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": " a library for projects that allow you to work with local and session storage in typescript",
   "main": "built/index.js",
   "types": "built/index.d.ts",
