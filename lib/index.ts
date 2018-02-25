@@ -1,4 +1,4 @@
-class Storage {
+export class Storage {
     /**
      * this method will look for a storage with the key name of storage.
      * @author Seyed Ali Roshan
@@ -128,5 +128,3 @@ class Storage {
         sessionStorage.clear();
     }
 }
-
-export { Storage };
